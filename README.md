@@ -10,11 +10,11 @@ This is a simple app for repair service at home
 
 ### Screenshots
 
-<img src="https://github.com/EliYakubov7/Weather-News/blob/master/screenshots/main_activity.jpg" width="250">  
-<img src="https://github.com/EliYakubov7/Weather-News/blob/master/screenshots/main_activity.jpg" width="250">  
-<img src="https://github.com/EliYakubov7/Weather-News/blob/master/screenshots/main_activity.jpg" width="250">  
-<img src="https://github.com/EliYakubov7/Weather-News/blob/master/screenshots/main_activity.jpg" width="250">  
-<img src="https://github.com/EliYakubov7/Weather-News/blob/master/screenshots/main_activity.jpg" width="250">  
+<img src="https://github.com/EliYakubov7/Find-It-Fix-It/blob/master/screenshots/empty_map.png" width="250">  
+<img src="https://github.com/EliYakubov7/Find-It-Fix-It/blob/master/screenshots/fill_form.png" width="250">  
+<img src="https://github.com/EliYakubov7/Find-It-Fix-It/blob/master/screenshots/mark_on_map.png" width="250">  
+<img src="https://github.com/EliYakubov7/Find-It-Fix-It/blob/master/screenshots/alert_dialog_to_ddelte_marker.png" width="250">  
+<img src="https://github.com/EliYakubov7/Find-It-Fix-It/blob/master/screenshots/marker_is_delete.png" width="250">  
 
 
 ## Author
