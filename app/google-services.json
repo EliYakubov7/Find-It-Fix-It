@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "18275411437",
+    "firebase_url": "https://fifi-25d4f.firebaseio.com",
+    "project_id": "fifi-25d4f",
+    "storage_bucket": "fifi-25d4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18275411437:android:f0c41d154c57af1b2273e4",
+        "android_client_info": {
+          "package_name": "com.example.finditfixit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18275411437-bc00i60kovsqidh6d97b58heh3188ta2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.finditfixit",
+            "certificate_hash": "834ed3f4b25fb3bcf43fcd33bf22e2fdc1b01762"
+          }
+        },
+        {
+          "client_id": "18275411437-ljkhqf9h338htk5p5a4442l8bobfja18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyVDAq1y2Z6tGg_xs2MfHpbi2hiaavLhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18275411437-ljkhqf9h338htk5p5a4442l8bobfja18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

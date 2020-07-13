@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Find It Fix It</string>
+    <string name="fill_form">מילוי טופס</string>
+    <string name="title_activity_retrieve_map">מפה</string>
+    <string name="add_button_details">הוסף פרטים</string>
+    <string name="add_details_successfully">הנתונים נוספו בהצלחה</string>
+    <string name="marker_and_data_deleted">הסמן והנתונים נמחקו בהצלחה</string>
+    <string name="take_image_button">בחר תמונה</string>
+    <string name="upload_image_button">הוסף תמונה</string>
+
+    <string name="hint_full_name">שם מלא</string>
+    <string name="hint_fault">תקלה</string>
+    <string name="hint_location">מיקום</string>
+
+    <string name="set_error_full_name">מלא את השם המלא שלך בבקשה</string>
+    <string name="set_error_fault_type">מלא את סוג התקלה שלך בבקשה</string>
+    <string name="set_error_location">לחץ על כפתור המיקום בבקשה</string>
+
+    <string name="label_location_dialog_title">גישה למיקום אושרה</string>
+    <string name="label_location_dialog_body">האפליקציה דורשת את הפעלת המיקום על מנת לספק חווית משתמש מקסימלית</string>
+    <string name="label_settings">הגדרות</string>
+    <string name="label_quit">יציאה</string>
+    <string name="open_map">פתח מפה</string>
+
+    <string name="title_alert_dialog">האם אתה בטוח במחיקת הסמן ?</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+
+    <string name="details">פרטים</string>
+    <string name="name">שם :</string>
+    <string name="fault">תקלה :</string>
+
+</resources>

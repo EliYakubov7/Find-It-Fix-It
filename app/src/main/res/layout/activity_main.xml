@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/form_toolbar"
+        android:layout_width="match_parent"
+        style="@style/CustomToolbarStyle"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_collapseMode="pin"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:title="@string/fill_form"
+        app:titleTextColor="@color/blackColor"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.35dp"
+        android:background="@android:color/darker_gray" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/logo_w_h"
+                android:layout_height="@dimen/logo_w_h"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/fifi"
+                tools:ignore="ContentDescription" />
+
+            <!-- User Full Name -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/fullName_til"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/full_name_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:inputType="textPersonName|textCapWords"
+                        android:drawableEnd="@drawable/ic_baseline_person_24"
+                        android:hint="@string/hint_full_name"
+                        android:textColorHint="@color/blackColor"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:baselineAligned="false"
+                android:orientation="horizontal">
+                <!-- Fault -->
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/fault_til"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/fault_et"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:inputType="textPersonName|textCapWords"
+                        android:drawableEnd="@drawable/ic_baseline_report_problem_24"
+                        android:hint="@string/hint_fault"
+                        android:textColorHint="@color/blackColor"/>
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+
+            <!-- Location -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/location_progress_bar"
+                    android:visibility="gone"
+                    android:layout_height="wrap_content"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/location_til"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_weight="1">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/location_et"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:inputType="textPersonName|textCapWords"
+                            android:hint="@string/hint_location"
+                            android:textColorHint="@color/blackColor"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <ImageButton
+                        android:id="@+id/location_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/button_selector"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_baseline_location_on_24"
+                        android:textColor="@color/colorTransparentWhite"
+                        android:tint="@color/blackColor" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/add_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button_selector"
+                android:text="@string/add_button_details"
+                android:textColor="@color/blackColor" />
+
+            <Button
+                android:id="@+id/map_button"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="5dp"
+                android:background="@drawable/button_selector"
+                android:text="@string/open_map"
+                android:textColor="@color/blackColor" />
+
+        </LinearLayout>
+
+</LinearLayout>
