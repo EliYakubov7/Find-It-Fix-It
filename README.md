@@ -1,5 +1,5 @@
 # Find-It-Fix-It
-This is a simple app for repair service at home
+This is a simple app for home repair service
 
 ## About the app:
 
